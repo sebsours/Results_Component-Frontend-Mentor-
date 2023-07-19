@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="styles.css">
+  
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  
+
+</head>
+<body>
+  <div class="container">
+    <div class="your_results">
+      <div class="results_typo">
+        <span id="result_title">Your Result</span>
+      </div>
+      
+      
+      <div class="results_typo" id="circle">
+        <span id="results_total">76</span>
+        <p style="margin-top: 2px;">of 100</p>
+        
+      </div>
+      
+      <div id="results_text">
+        <span style="color: hsl(0, 0%, 100%); font-weight: 600; font-size: x-large;">Great</span>
+        <p style="width: 75%; font-weight: 500; font-size: medium;">You scored higher than 65% of the people who have taken these tests.</p>
+        
+      </div>
+      
+    </div>
+    
+    <div id="summary">
+      <span id="summary_title">Summary</span>
+      
+      <div id="summary_content">
+        <div class="summary_category" style="background-color: hsla(0, 100%, 67%, 0.1);">
+          <div class="cat_title">
+            <img src="./assets/images/icon-reaction.svg" alt="r" style="padding-right: 10px;"> 
+            <span style="color: hsl(0, 100%, 67%);">Reaction</span>
+          </div>
+  
+          <div class="cat_score">
+            <p>80 <span style="color: hsla(224, 30%, 27%,0.5);">/ 100</span></p>
+          </div>
+          
+        </div>
+        
+        <div class="summary_category" style="background-color: hsla(39, 100%, 56%, 0.1);">
+          <div class="cat_title">
+            <img src="./assets/images/icon-memory.svg" alt="m" style="padding-right: 10px;">
+            <span style="color: hsl(39, 100%, 56%);">Memory</span>
+          </div>
+          
+          <div class="cat_score">
+            <p>92 <span style="color: hsla(224, 30%, 27%,0.5);">/ 100</span></p>
+          </div>
+          
+        </div>
+        
+        
+        <div class="summary_category" style="background-color: hsla(166, 100%, 37%, 0.1);">
+          <div class="cat_title">
+            <img src="./assets/images/icon-verbal.svg" alt="v" style="padding-right: 10px;">
+            <span style="color: hsl(166, 100%, 37%);">Verbal</span>
+          </div>
+          
+          <div class="cat_score">
+            <p>61 <span style="color: hsla(224, 30%, 27%,0.5);">/ 100</span></p>
+          </div>
+          
+        </div>
+        
+        
+        <div class="summary_category" style="background-color: hsla(234, 85%, 45%, 0.1);">
+          <div class="cat_title">
+            <img src="./assets/images/icon-visual.svg" alt="v" style="padding-right: 10px;">
+            <span style="color: hsl(234, 85%, 45%);">Visual</span>
+          </div>
+  
+          <div class="cat_score">
+            <p>72 <span style="color: hsla(224, 30%, 27%,0.5);">/ 100</span></p>
+          </div>
+          
+        </div>
+      </div>
+      
+      
+      <button type="button" id="continue">
+        <span id="continue_text">
+          Continue
+        </span>
+      </button>
+      
+    </div>
+  </div>
+    
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Sebastian Morales</a>.
+  </div>
+</body>
+</html>
